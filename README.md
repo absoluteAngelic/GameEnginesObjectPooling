@@ -1,6 +1,6 @@
 # GameEnginesObjectPooling
 
-## This repo/project is an otherwise blank scene with primitives being spawned 50 times per second and moving in a random direction, then dying/despawning after 1.7 seconds.
+## This repo/project is an otherwise blank scene with primitives being spawned 200 times per second and moving in a random direction, then dying/despawning after 3 seconds.
 
 -We'll only be looking at the "PlayerLoop", as in, we'll ignore the editor's performance, and the performance of the profiler itself <br>
 
