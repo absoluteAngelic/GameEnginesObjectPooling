@@ -104,5 +104,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d299c758cebc91640a5a25ffca07c8c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlueEnemyPooledFactory
-  spawnCooldown: 0.02
+  spawnCooldown: 0.005
   blueEnemy: {fileID: 6548991988090035604, guid: 479047c34a28f7148a014251f2f8cc41, type: 3}
