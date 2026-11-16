@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    float lifeTimer;
+    protected float lifeTimer;
     public float totalLife;
     public float speedMultiplier;
     Vector3 movementDir;
@@ -13,7 +13,7 @@ public abstract class Enemy : MonoBehaviour
         movementDir = new Vector3(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f), 0f).normalized;
     }
 
-    public abstract void setColour();
+    protected abstract void setColour();
 
     void Update()
     {
@@ -27,7 +27,7 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    void Die()
+    protected virtual void Die()
     {
         Destroy(this.gameObject);
     }

@@ -4,7 +4,7 @@ public class BlueEnemyFactory : EnemyFactory
 {
     float spawnTimer;
     public float spawnCooldown;
-    public GameObject blueEnemy;
+    public Enemy blueEnemy;
 
     public override void Spawn()
     {
